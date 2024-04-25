@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navBar{
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+
+/* .nav-item:hover{
+    border: 2px solid white;
+    border-radius: 11px;
+} */
+
+.nav-link{
+    color: white;
+}
+
+.nav-link-signup{
+    color: white;
+    text-decoration: none;
+}
+.btn-outline-light:hover{
+    .nav-link-signup{
+        color: black;
+    }
+}
+
+.nav-link:hover{
+    color: rgba(255, 255, 255, 0.55);
+}
+
+.card-edit{
+    border: 2px solid rgba(0, 0, 0, 0.175);
+}
+
+.card-text{
+    /* height: 222px; */
+    overflow: hidden;
+    /* white-space: nowrap; */
+    text-overflow: ellipsis;
+}
+
+
+/* SignUp Page editing */
+.nav-link-signup-page{
+    color: black;
+    text-decoration: none;
+}
+
+.nav-link-login-page{
+    color: white;
+    text-decoration: none;
+}
+
+
+/* Responsiveness */
+@media screen and (max-width: 945px) {
+    .card{
+        display: flex;
+        justify-content: center;
+    }
+}
+
